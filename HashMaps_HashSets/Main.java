@@ -5,7 +5,5 @@ class Main
         /* CONVERTING ANY STRING TO INTEGER */
         String str = "Siva";
         System.out.println(str.hashCode());
-
-        
     }
 }

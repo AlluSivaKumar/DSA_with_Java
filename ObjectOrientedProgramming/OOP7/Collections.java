@@ -14,4 +14,9 @@ public class Collections {
 
         System.out.println(list);
     }
+
+    public static void sort(ArrayList<Integer> list) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'sort'");
+    }
 }
