@@ -27,6 +27,8 @@ public class LeetCode3016 {
         Collections.sort(list);
         Collections.reverse(list);
 
+        System.out.println(list);
+
         for(int i=0;i<list.size();i++)
         {
             int value = (i / 8) + 1;

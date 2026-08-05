@@ -42,7 +42,6 @@ public class LeetCode204
         while(c*c <= n)
         {
             if(n % c == 0)
-                --
             {
                 return false;
             }

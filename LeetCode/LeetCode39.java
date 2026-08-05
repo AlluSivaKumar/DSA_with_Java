@@ -17,7 +17,7 @@ public class LeetCode39 {
         int n=  candidates.length;
         for(int i=0;i<n;i++)
         {
-            int sum = candidates[i]
+            int sum = candidates[i];
             for(int j=i+1;j<n;j++)
             {
                 sum += candidates[j];

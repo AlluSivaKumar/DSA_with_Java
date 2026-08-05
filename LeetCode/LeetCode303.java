@@ -8,12 +8,12 @@ class LeetCode303
 
     }
 
-    public NumArray(int[] nums) 
+    /*public NumArray(int[] nums)
     {
         
     }
     
-    public static int sumRange(int left, int right) 
+    /*public static int sumRange(int left, int right)
     {
         int[] nums = NumA
         return sumRange(left, right, null);
@@ -27,5 +27,5 @@ class LeetCode303
             sum += nums[i];
         }
         return sum;
-    }
+    }*/
 }
