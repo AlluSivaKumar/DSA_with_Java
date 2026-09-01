@@ -5,13 +5,13 @@ public class Dynamic_Stack extends CustomStack
     public Dynamic_Stack()
     {
         //CALLING THE DEFAULT CONSTRUCTOR OF THE PARENT CLASS
-        super();
+        super(); //IT WILL CALL CUSTOMSTACK();
     }
 
     public Dynamic_Stack(int size)
     {
         //CALLING THE CONSTRUCTOR WITH SIZE OF THE PARENT CLASS
-        super(size);
+        super(size); //IT WILL CALL CUSTOMSATCK(SIZE);
     }
 
     //OVERRIDE THE PUSH METHOD TO MAKE THE STACK DYNAMIC
@@ -32,6 +32,7 @@ public class Dynamic_Stack extends CustomStack
             data = temp;
             
         }
+        
         //Insert Item            
         super.push(item);
         return true;

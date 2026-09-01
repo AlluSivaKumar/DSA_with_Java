@@ -35,11 +35,15 @@ public class CustomQueue
             throw new Exception("Queue is Empty");
         }
         int item = data[0];
+
+        //SHIFTING THE ELEEMENTS HERE TO LEFT FROM INDEX 1
         for(int i=1;i<data.length;i++)
         {
             data[i-1] = data[i];
         }
         end--;
+
+
         return item;
     }
 

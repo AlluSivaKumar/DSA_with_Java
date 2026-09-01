@@ -38,7 +38,9 @@ public class CircularQueue
             return false; 
         }
         data[end++] = item;
+
         end = end % data.length;
+
         size++;
         return true;
     }
@@ -50,10 +52,55 @@ public class CircularQueue
             throw new Exception("Queue is Empty");
         }
 
+        //SINCE WE ARE USING CIRCULAR QUEUE WE DONT NEED TO SHIFT THE ELEEMNTS
+
         int removed = data[start++];
+
         start = start % data.length;
+
         size--;
+
         return removed;
     }
 
+    public int front() throws Exception {
+        if(isEmpty())
+        {
+            throw new Exception("Queue is Empty");
+        }
+        return data[start];
+    }
+
+    public void display() {
+        if (isEmpty()) {
+            System.out.println("Empty");
+        }
+        int i = start;
+        do {
+            System.out.print(data[i] + " -> " );
+            i++;
+            i = i % data.length;
+        }while(i != end);
+        System.out.println("END");
+    }
+
+    public static void main(String[] args) throws Exception {
+        CircularQueue queue = new CircularQueue(5);
+
+        queue.insert(56);
+        queue.insert(57);
+        queue.insert(26);
+        queue.insert(76);
+        queue.insert(06);
+
+        queue.display();
+
+        System.out.println(queue.remove());
+        System.out.println(queue.remove());
+        System.out.println(queue.remove());
+        System.out.println(queue.remove());
+
+        queue.display();
+        
+    }
 }
