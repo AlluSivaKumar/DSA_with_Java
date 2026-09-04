@@ -14,7 +14,22 @@ class LeetCode3876
         {
             return true;
         }
-        return false;
+        
+        int min = nums1[0];
+
+        for(int num : nums1)
+        {
+            if(num < min)
+            {
+                min = num;
+            }
+        }
+
+        if(min % 2 == 0)
+        {
+            return false;
+        }
+        return true;
     }
 
     public static boolean ifAllEven(int[] nums)
