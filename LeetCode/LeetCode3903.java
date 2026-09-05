@@ -24,6 +24,20 @@ public class LeetCode3903 {
 
         System.out.println(Arrays.toString(suffixMin));
 
+        int prefixMax = Integer.MIN_VALUE;
+
+        for(int i=0;i<n;i++)
+        {
+            prefixMax = Math.max(prefixMax, nums[i]);
+
+            int instabilityScore = prefixMax - suffixMin[i];
+
+            if(instabilityScore <= k)
+            {
+                return i;
+            }
+        }
+
         return -1;
     }
     /*    for(int i=0;i<nums.length;i++)
