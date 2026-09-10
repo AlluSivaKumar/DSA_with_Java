@@ -1,5 +1,3 @@
-package Treees;
-
 import java.util.*;
 
 public class BinaryTree 
@@ -21,7 +19,6 @@ public class BinaryTree
     }
 
     private Node root;
-
     //Insert Elements
     public void populate(Scanner scanner)
     {
