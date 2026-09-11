@@ -41,7 +41,7 @@ public class BinarySearchTree
 
     public void display()
     {
-        display(this.root , "Root Node : ");
+        display(BinarySearchTree.root , "Root Node : ");
     }
 
     private void display(Node node , String details)

@@ -160,7 +160,7 @@ public class AvlTrees
         }
     }
 
-    public static int height()
+    public int height()
     {
         if(root == null)
         {
