@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package OOP1;
 
 public class WrapperClass 
 {

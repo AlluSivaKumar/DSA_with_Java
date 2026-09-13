@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package OOP1;
 //when you want to run a single instance of a class
 //it can create only one object
 

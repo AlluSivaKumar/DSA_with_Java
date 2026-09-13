@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package OOP1;
 
 public class Code 
 {
@@ -24,9 +24,9 @@ public class Code
         Student name1 = new Student();
 
         Student siva = new Student(142,"Siva Kumar Allu",98.4f);
-        System.out.println(siva.Rno);
-        System.out.println(siva.Name);
-        System.out.println(siva.Marks);
+        // System.out.println(siva.Rno);
+        // System.out.println(siva.Name);
+        // System.out.println(siva.Marks);
         
 
         name1.changeName("Harsha");
@@ -40,9 +40,12 @@ public class Code
 
 
 
-        System.out.println(name1.Rno);
-        System.out.println(name1.Name);
-        System.out.println(name1.Marks);
+        // System.out.println(name1.Rno);
+        // System.out.println(name1.Name);
+        // System.out.println(name1.Marks);
+
+        Student pru = new Student(siva);
+        System.out.println(pru.Name);
 
     }
 
@@ -62,7 +65,7 @@ public class Code
             Name = Newname;
         }
 
-        @SuppressWarnings("unused")
+        //@SuppressWarnings("unused")
         void Greeting()
         {
             System.out.println("Hello My name is " + this.Name);
@@ -81,7 +84,12 @@ public class Code
             this.Marks = Marks;
         }
 
-        
+        public Student(Student other)
+        {
+            this.Name = other.Name;
+            this.Rno = other.Rno;
+            this.Marks = other.Marks;
+        }
 
     }
 }
