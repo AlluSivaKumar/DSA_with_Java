@@ -1,4 +1,6 @@
-public class IfStatement {
+package T1_ConditionalStatements;
+
+public class T1_IfStatement {
     public static void main(String[] args) 
     {
         int age = 19;

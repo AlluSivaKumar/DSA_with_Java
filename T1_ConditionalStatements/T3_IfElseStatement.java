@@ -1,5 +1,8 @@
-public class IfElseIf {
+package T1_ConditionalStatements;
+
+public class T3_IfElseStatement {
     public static void main(String[] args) {
+        
         int age  = 12;
 
         if(age > 40)
@@ -15,4 +18,5 @@ public class IfElseIf {
             System.out.println("Minor");
         }
     }
+
 }

@@ -1,4 +1,6 @@
-public class IfElseStatement {
+package T1_ConditionalStatements;
+
+public class T2_IfElseIf {
     public static void main(String[] args) {
         int age = 19;
 
@@ -10,5 +12,7 @@ public class IfElseStatement {
         {
             System.out.println("Minor");
         }
+
+
     }
 }

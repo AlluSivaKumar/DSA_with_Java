@@ -1,9 +1,11 @@
-public class SwitchCase {
+package T1_ConditionalStatements;
+
+public class T4_SwitchCase {
     public static void main(String[] args) 
     {
         int day =  1;
 
-        switch (day) 
+        switch(day) 
         {
             case 1:
                 System.out.println("Sunday");
