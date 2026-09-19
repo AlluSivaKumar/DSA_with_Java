@@ -1,11 +1,10 @@
-package Loops;
+package T2_Loops;
 
 import java.util.Scanner;
 
-public class ForLoop {
+public class T1_ForLoop {
     public static void main(String[] args) 
     {
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a Number :");
         int num = sc.nextInt();
@@ -14,5 +13,7 @@ public class ForLoop {
         {
             System.out.println(i);
         }
+
+        sc.close();
     }
 }

@@ -1,6 +1,6 @@
-package Loops;
+package T2_Loops;
 
-public class CountNumberOfDigitsInANumber {
+public class T5_CountNumberOfDigitsInANumber {
     public static void main(String[] args) {
         int n = 2344664;
 

@@ -1,8 +1,8 @@
-package Loops;
+package T2_Loops;
 
 import java.util.Scanner;
 
-public class FibonacciSeries 
+public class T4_FibonacciSeries 
 {
     public static void main(String[] args) 
     {
