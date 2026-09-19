@@ -1,10 +1,10 @@
-package FunctionsAndMethods;
+package T3_FunctionsAndMethods;
 
 import java.util.*;
 
-public class VariableArguments {
+public class T5_VariableArguments {
     public static void main(String[] args) {
-        fun();
+        fun(10 , 20, 30, 40, 50);
         multiple(2, 3, "Kunal", "Rahul", "dvytsbhusc");
         demo("67","89","35");
     }

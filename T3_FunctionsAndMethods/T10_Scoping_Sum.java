@@ -1,8 +1,8 @@
-package FunctionsAndMethods;
+package T3_FunctionsAndMethods;
 
 import java.util.Scanner;
 
-public class Problem 
+public class T10_Scoping_Sum 
 {
     public static void main(String[] args) 
     {

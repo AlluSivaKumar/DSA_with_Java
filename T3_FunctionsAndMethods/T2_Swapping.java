@@ -1,13 +1,16 @@
-package FunctionsAndMethods;
+package T3_FunctionsAndMethods;
 
-public class Swapping 
+public class T2_Swapping 
 {
     public static void main(String[] args) 
     {
         int a = 10;
         int b = 20;
 
-        swap(a,b);
+        swap(a,b); // a = 20 , b = 10 This is called scoping(Where we can access variables)
+
+        System.out.println("a :" + a); //10
+        System.out.println("b :" + b); //20
 
     }
 

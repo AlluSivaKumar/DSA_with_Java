@@ -1,9 +1,9 @@
-package FunctionsAndMethods;
+package T3_FunctionsAndMethods;
 
-public class PrimeOrNot {
+public class T7_PrimeOrNot {
     public static void main(String[] args) 
     {
-        System.out.println(isPrime(4));   
+        System.out.println(isPrime(5));   
     }
     static boolean isPrime(int num)
     {
@@ -23,11 +23,11 @@ public class PrimeOrNot {
             c++;
         }
 
-        if(c*c > num)
+        /* if(c*c > num)
         {
             return true;
-        }
+        } */
 
-        return false;
+        return true;
     }
 }

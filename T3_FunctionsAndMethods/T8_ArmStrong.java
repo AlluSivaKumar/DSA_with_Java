@@ -1,8 +1,8 @@
-package FunctionsAndMethods;
+package T3_FunctionsAndMethods;
 
 import java.util.*;
 
-public class ArmStrong 
+public class T8_ArmStrong 
 {
     public static void main(String[] args) 
     {

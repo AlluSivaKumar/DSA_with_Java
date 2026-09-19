@@ -1,8 +1,8 @@
-package FunctionsAndMethods;
+package T3_FunctionsAndMethods;
 
 import java.util.Arrays;
 
-public class ChangeValue 
+public class T9_ScopingChangeValue 
 {
     public static void main(String[] args) 
     {

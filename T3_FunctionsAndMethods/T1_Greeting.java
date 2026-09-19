@@ -1,6 +1,6 @@
-package FunctionsAndMethods;
+package T3_FunctionsAndMethods;
 
-public class Greeting 
+public class T1_Greeting 
 {
     public static void main(String[] args) 
     {
