@@ -7,4 +7,9 @@ public class Square extends Shapes
     {
         System.out.println("Area is side*side");
     }
+
+    static void perimeter()
+    {
+        System.out.println("Square peri");
+    }
 }

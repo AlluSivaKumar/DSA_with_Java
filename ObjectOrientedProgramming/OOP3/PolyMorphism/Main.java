@@ -4,7 +4,7 @@ public class Main
 {
     public static void main(String[] args) 
     {
-        Shapes shape = new Shapes();
+        /* Shapes shape = new Shapes();
         Circle circle = new Circle();
         Square square = new Square();
 
@@ -13,6 +13,10 @@ public class Main
         square.area();
 
         Shapes cir = new Circle();
-        cir.area();//circle area() is called.
+        cir.area();//circle area() is called. */
+
+        Square sq = new Square();
+        Square.perimeter();
+        sq.getClass();
     }
 }
