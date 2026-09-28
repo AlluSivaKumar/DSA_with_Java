@@ -1,4 +1,4 @@
-package OOP3Inheritance;
+package OOP3.Inheritance;
 
 class Box
 {
@@ -15,7 +15,6 @@ class Box
     //Cube
     Box(double side) {
         this.l = side;
-        this.w = side;
         this.h = side;
     }
 
@@ -42,17 +41,17 @@ public class BoxCode
 {
     public static void main(String[] args) 
     {
-        /* Box box = new Box();
-        System.out.println(box.l + " " + box.w + " " + box.h); */
+        Box box = new Box();
+        System.out.println(box.l + " " + box.w + " " + box.h);
 
-        /* box = new Box(7);
-        System.out.println(box.l + " " + box.w + " " + box.h); */
+        box = new Box(7);
+        System.out.println(box.l + " " + box.w + " " + box.h);
 
-        /* box = new Box(5,7,8);
-        System.out.println(box.l + " " + box.w + " " + box.h); */
+        box = new Box(5,7,8);
+        System.out.println(box.l + " " + box.w + " " + box.h);
 
-        /* Box box2 = new Box(box);
-        System.out.println(box2.l + " " + box2.w + " " + box2.h); */
+        Box box2 = new Box(box);
+        System.out.println(box2.l + " " + box2.w + " " + box2.h);
 
         /* BoxWidth box3 = new BoxWidth();
         System.out.println(box3.l + " " + box3.w + " " + box3.h + " " + box3.width);

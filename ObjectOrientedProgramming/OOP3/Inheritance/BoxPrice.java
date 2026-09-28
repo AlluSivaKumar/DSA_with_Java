@@ -1,4 +1,4 @@
-package OOP3Inheritance;
+package OOP3.Inheritance;
 
 public class BoxPrice extends BoxWidth
 {

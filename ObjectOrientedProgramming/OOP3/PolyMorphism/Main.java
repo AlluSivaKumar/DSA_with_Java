@@ -1,4 +1,4 @@
-package OOP3PolyMorphism;
+package OOP3.PolyMorphism;
 
 public class Main 
 {
