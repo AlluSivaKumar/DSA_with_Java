@@ -1,37 +1,55 @@
 package Questions;
 
-public class MergeSort {
+public class MergeTwoSortedLists {
 
     class ListNode 
     {
         int val;
         ListNode next;
-
-        public ListNode() {
-
-        }
-
-        ListNode(int x) 
-        {
-            val = x;
-            next = null;
-        }
-
-        /* ListNode(int val , ListNode next)
-        {
-
-        } */
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
-    /* public ListNode addTwoNumbers(ListNode l1, ListNode l2) 
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) 
     {
-        ListNode h1 = l1;
-        ListNode h2 = l2;
-        int n1 = 0;
+        ListNode dummyHead = new ListNode();
+        ListNode tail = dummyHead;
 
-    } */
+        while (list1 != null && list2 != null) 
+        {
+            if(list1.val < list2.val)
+            {
+                tail.next = list1;
+                list1 = list1.next;
+                tail = tail.next;
+            }
+            else
+            {
+                tail.next = list2;
+                list2 = list2.next;
+                tail = tail.next;
+            }
+        }
 
-    public ListNode sortList(ListNode head) {
+        while (list1 != null) 
+        {
+            tail.next = list1;
+            list1 = list1.next;
+            tail = tail.next;
+        }
+
+        while (list2 != null) 
+        {
+            tail.next = list2;
+            list2 = list2.next;
+            tail = tail.next;
+        }
+
+        return dummyHead.next;
+    }
+
+    /* public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
@@ -70,6 +88,6 @@ public class MergeSort {
         ListNode mid = midPrev.next;
         midPrev.next = null;
         return mid;
-    }
+    } */
 }
 
