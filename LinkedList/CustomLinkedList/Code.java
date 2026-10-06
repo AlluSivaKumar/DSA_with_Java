@@ -1,4 +1,5 @@
-package LinkedList.CustomLinkedList;
+package CustomLinkedList;
+
 import java.util.LinkedList;
 
 public class Code 
