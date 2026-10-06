@@ -4,15 +4,6 @@ import java.util.Scanner;
 
 public class HappyNumber 
 {
-    public static void main(String[] args) {
-        @SuppressWarnings("resource")
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-
-        //LLHasCycle obj = new LLHasCycle();
-        System.out.println(isHappyNumber(num));
-        //System.out.println(sumOfSquareOfDigits(89));
-    }
 
     static boolean isHappyNumber(int num) 
     {
@@ -41,5 +32,15 @@ public class HappyNumber
             num = num/10;
         }
         return sum;
+    }
+
+    public static void main(String[] args) {
+        @SuppressWarnings("resource")
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        //LLHasCycle obj = new LLHasCycle();
+        System.out.println(isHappyNumber(num));
+        //System.out.println(sumOfSquareOfDigits(89));
     }
 }

@@ -1,7 +1,5 @@
 package Questions;
 
-import java.util.LinkedList;
-
 public class RemoveDuplicatesFromSortedList 
 {
     public class ListNode 

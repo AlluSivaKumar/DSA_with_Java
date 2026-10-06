@@ -1,15 +1,42 @@
 package Questions;
 
-public class LLHasCycle 
+public class LinkedListCycleDetection 
 {
-    @SuppressWarnings("unused")
+    class ListNode 
+    {
+        int val;
+        ListNode next;
+        ListNode(int x) 
+        {
+             val = x;
+             next = null;
+        }
+    }
+
+    @SuppressWarnings("null")
+    public boolean hasCycle(ListNode head) 
+    {
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null || fast.next != null) 
+        {
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast ==  slow)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+    /* @SuppressWarnings("unused")
     private Node head;
     @SuppressWarnings("unused")
     private Node tail;
     @SuppressWarnings("unused")
     private int size;
 
-    LLHasCycle() 
+    LinkedListCycleDetection() 
     {
         this.size = 0;
     }
@@ -92,5 +119,5 @@ public class LLHasCycle
         }
         return slow;
     }
-
+ */
 }
