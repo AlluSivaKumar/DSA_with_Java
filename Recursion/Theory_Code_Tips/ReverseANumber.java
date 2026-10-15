@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Theory_Code_Tips;
 
 public class ReverseANumber {
     public static void main(String[] args) {
@@ -27,6 +27,7 @@ public class ReverseANumber {
 
     static int helper(int n,int digits)
     {
+        //IF A NUMBER IS ONE DIGIT NUMBER , RETURN THE NUMBER ITSELF
         if(n%10 == n) {
             return n;
         }
