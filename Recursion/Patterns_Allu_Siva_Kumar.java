@@ -1,5 +1,3 @@
-package Recursion;
-
 public class Patterns_Allu_Siva_Kumar {
     public static void main(String[] args) {
         triangle(5, 0);
