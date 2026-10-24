@@ -1,4 +1,4 @@
-package Recursion.StringsSubStringsAndSubSequences;
+package StringsSubStringsAndSubSequences;
 
 public class RemovesACharacterFormAString 
 {

@@ -1,4 +1,4 @@
-package Recursion;
+package Introduction;
 
 public class FibonacchiNumber {
     public static void main(String[] args) 

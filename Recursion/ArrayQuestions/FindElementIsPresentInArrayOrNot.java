@@ -1,4 +1,4 @@
-package Recursion;
+package ArrayQuestions;
 
 public class FindElementIsPresentInArrayOrNot {
     public static void main(String[] args) {

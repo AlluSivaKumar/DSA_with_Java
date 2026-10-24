@@ -1,4 +1,4 @@
-package Recursion;
+package ArrayQuestions;
 
 import java.util.ArrayList;
 

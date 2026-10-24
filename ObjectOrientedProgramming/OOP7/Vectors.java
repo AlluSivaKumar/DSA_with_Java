@@ -2,6 +2,7 @@ package OOP7;
 import java.util.*;
 
 public class Vectors {
+    @SuppressWarnings("rawtypes")
     public static void main(String[] args) {
 
         @SuppressWarnings("unchecked")

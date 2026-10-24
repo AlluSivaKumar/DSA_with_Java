@@ -1,4 +1,4 @@
-package Recursion.Theory_Code_Tips;
+package Theory_Code_Tips;
 
 public class NumbersExampleTwo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Recursion;
+package ArrayQuestions;
 
 public class ArraySortedOrNot {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Recursion.Theory_Code_Tips;
+package Theory_Code_Tips;
 
 public class SumFrom1toN {
     public static void main(String[] args) {

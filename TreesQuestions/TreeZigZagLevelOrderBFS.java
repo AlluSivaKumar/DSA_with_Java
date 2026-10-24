@@ -1,7 +1,5 @@
 package TreesQuestions;
-
-import java.util.Collection;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * TreeZigZagLevelOrderBFS
@@ -29,10 +27,10 @@ public class TreeZigZagLevelOrderBFS {
 
         if(root == null)
         {
-            return root;
+            return list;
         }
 
-        Dueue<TreeNode> queue = new LinkedList<>();
+        Deque<TreeNode> queue = new LinkedList<>();
 
         queue.offer(root);
 
@@ -41,7 +39,7 @@ public class TreeZigZagLevelOrderBFS {
         while (queue.isEmpty())
         {
             int levelSize = queue.size();
-            Lsit<Integer> inner = new ArrayList<>();
+            List<Integer> inner = new ArrayList<>();
 
             if(!reverse)
             {

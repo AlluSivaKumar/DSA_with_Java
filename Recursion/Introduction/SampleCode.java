@@ -1,4 +1,4 @@
-package Recursion;
+package Introduction;
 
 public class SampleCode {
     public static void main(String[] args) {

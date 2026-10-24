@@ -1,4 +1,4 @@
-package Recursion;
+package Theory_Code_Tips;
 
 public class NumberOfZeroes {
     public static void main(String[] args) {
