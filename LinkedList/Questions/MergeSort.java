@@ -11,6 +11,7 @@ public class MergeSort
         public ListNode(int val, ListNode next) {this.val = val; this.next = next; }
     }
 
+    @SuppressWarnings("null")
     public static ListNode merge(ListNode head1, ListNode head2)
     {
         if(head1 == null)
@@ -74,6 +75,7 @@ public class MergeSort
         return merge(lefNode, rightNode);
     }
 
+    @SuppressWarnings("null")
     public static ListNode getMid(ListNode head)
     {
         ListNode midPrev = null;

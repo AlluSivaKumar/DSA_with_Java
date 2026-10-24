@@ -1,7 +1,4 @@
 package Questions;
-
-import java.util.List;
-
 /**
  * ReverseALinkedListFromCertainIndexToIndex
  */

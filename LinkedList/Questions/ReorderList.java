@@ -35,15 +35,19 @@ public class ReorderList {
             headFirst.next = headSecond;
             headFirst = temp1;
 
-            temp2 = headSecond.next;
+            head = headSecond.next;
             headSecond.next = headFirst;
-            headSecond = temp2;
+            headSecond = head;
         }
 
         /* if(headFirst != null)
         {
             headFirst.next = null;
         } */
+    }
+
+    private static ListNode reverseList(ListNode headSecond) {
+        throw new UnsupportedOperationException("Unimplemented method 'reverseList'");
     }
 
     public static ListNode getMiddle(ListNode head)

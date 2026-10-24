@@ -1,7 +1,4 @@
 package Questions;
-
-import java.util.List;
-
 /**
  * PalindromeLinkedList
  */
@@ -16,7 +13,7 @@ public class PalindromeLinkedList {
         public ListNode(int val, ListNode next) {this.val = val; this.next = next;}      
     }   
 
-    public static boolean isPalindromeLinkedList(Node head)
+    public static boolean isPalindromeLinkedList(ListNode head)
     {
         ListNode middleNode = getMiddle(head);
         ListNode secondHead = reveseLinkedList(middleNode);
@@ -37,7 +34,7 @@ public class PalindromeLinkedList {
         return head == null || secondHead == null;
     }
 
-    public static ListNode getMiddle(Node head)
+    public static ListNode getMiddle(ListNode head)
     {
         ListNode slow = head;
         ListNode fast = head;
@@ -51,7 +48,7 @@ public class PalindromeLinkedList {
         return slow;
     }
 
-    public static ListNode reveseLinkedList(Node head)
+    public static ListNode reveseLinkedList(ListNode head)
     {
         if(head == null)
         {
